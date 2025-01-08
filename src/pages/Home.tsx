@@ -115,6 +115,11 @@ const Home = () => {
         </div>
       )}
 
+      {/* Overlay */}
+      {(showLeftNav || showRightNav) && (
+        <div className="fixed inset-0 bg-black opacity-50 z-40"></div>
+      )}
+
       {/* Tabs */}
       <div className="flex flex-col md:flex-row mt-12 items-center">
         <div className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-12">

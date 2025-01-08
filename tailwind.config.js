@@ -11,7 +11,7 @@ export default {
         'middleblue': '#21242D',
         'darkgray':'#00000033',
         'lightgreen':'#00B9AE'
-      }
+      },
     },
   },
   plugins: [],

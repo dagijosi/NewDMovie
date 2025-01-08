@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-scrollbar {
+    padding-bottom: 4px; /* Add padding to create a gap */
+  }
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #21242D;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #24293a;
+    border-radius: 10px;
+  }
+  

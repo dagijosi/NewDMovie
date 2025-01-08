@@ -55,7 +55,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="bg-darkblue grow text-white flex-1 p-4 md:pl-10 overflow-y-auto relative">
+    <div className="bg-darkblue grow text-white flex-1 p-4 md:pl-10 overflow-y-auto relative custom-scrollbar">
       {/* Toggle Buttons */}
       <div className="flex justify-between md:hidden">
         <button className="left-nav-toggle" onClick={() => setShowLeftNav(!showLeftNav)}>

@@ -1,4 +1,4 @@
-import Card from "./Cards";
+import Card from "./cards/Card";
 
 const Popular = () => {
     const movieDetails = [

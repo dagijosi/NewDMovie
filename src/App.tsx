@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="flex h-screen">
+    <div className="flex">
       <div className="hidden md:block">
         <LeftNav />
       </div>

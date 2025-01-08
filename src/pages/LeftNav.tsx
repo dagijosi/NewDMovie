@@ -66,7 +66,7 @@ const LeftNav: React.FC = () => {
   };
 
   return (
-    <div className="h-screen w-64 bg-middleblue text-white p-6 pl-10 md:block">
+    <div className="min-h-screen w-64 bg-middleblue text-white p-6 pl-10 md:block">
       <h1 className="text-2xl not-italic font-extrabold">DMOVIES</h1>
       {sections.map((section, sectionIndex) => (
         <div key={sectionIndex} className="flex-shrink-0 mt-8">

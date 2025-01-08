@@ -19,7 +19,7 @@ const Tab: React.FC<TabProps> = ({ label, isActive, onClick }) => (
     whileTap={{ scale: 0.95 }}
   >
     <h1
-      className={`w-20 text-lg not-italic text-center font-semibold ${
+      className={`w-20 md:text-lg not-italic text-center font-semibold ${
         isActive ? "text-white" : "text-gray-400"
       }`}
     >

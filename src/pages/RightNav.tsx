@@ -3,7 +3,7 @@ import { FiBell } from "react-icons/fi";
 const RightNav = () => {
   return (
     <div className="bg-middleblue text-white h-screen md:block py-6 px-8">
-      <div className="flex flex-col md:flex-row justify-between items-center">
+      <div className="flex flex-row justify-between items-center">
         <button className=" inline-flex py-3 px-4 items-center bg-darkgray rounded-2xl justify-center">
           <FiBell />
         </button>
